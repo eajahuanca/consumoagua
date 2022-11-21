@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<CabeceraComponent/>
+	<router-view />
+	<PieComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CabeceraComponent from "@/components/CabeceraComponent.vue";
+import PieComponent from "@/components/PieComponent.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+	components: {
+		CabeceraComponent,
+		PieComponent
+	}
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
