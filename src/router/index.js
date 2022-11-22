@@ -1,16 +1,17 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import RegistroView from '../views/RegistroView.vue'
+import PersonalView from '../views/PersonalView.vue'
 
 const routes = [
 	{
 		path: '/',
-		name: 'registro',
-		component: RegistroView
+		name: 'personal',
+		component: PersonalView,
 	},
 	{
-		path: '/personal',
-		name: 'personal',
-		component: () => import('../views/PersonalView.vue')
+		path: '/registro',
+		name: 'registro',
+		component: RegistroView,
 	},
 	{
 		path: '/reporte',

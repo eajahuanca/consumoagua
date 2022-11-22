@@ -1,0 +1,102 @@
+{
+  "personal": [
+    {
+      "id": 1,
+      "nombre_completo": "Juan Perez",
+      "direccion": "Calle Retamas S/N",
+      "celular": "4784212"
+    },
+    {
+      "nombre_completo": "Edwin Ajahuanca Callisaya",
+      "direccion": "Calle Alto de la Alianza Nro. 1514",
+      "celular": "61457484",
+      "id": 4
+    },
+    {
+      "nombre_completo": "Maria Quispe",
+      "direccion": "Avenida Retamas N. 415",
+      "celular": "84511212",
+      "id": 5
+    },
+    {
+      "nombre_completo": "Laura Salinas",
+      "direccion": "Calle Saucedo Nro. 478",
+      "celular": "945877",
+      "id": 6
+    }
+  ],
+  "consumo": [
+    {
+      "id": 1,
+      "cantidadm3": 15,
+      "fecha_lectura": "2022-10-15",
+      "total_pagar": 150,
+      "personal": {
+        "id": 1,
+        "nombre_completo": "Juan Perez",
+        "direccion": "Calle Retamas S/N",
+        "celular": "4784212"
+      }
+    },
+    {
+      "personal": {
+        "id": 1,
+        "nombre_completo": "Juan Perez",
+        "direccion": "Calle Retamas S/N",
+        "celular": "4784212"
+      },
+      "cantidadm3": 5,
+      "fecha_lectura": "2022-10-11",
+      "total_pagar": 50,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "cantidadm3": 10,
+      "fecha_lectura": "2022-10-17",
+      "total_pagar": 100,
+      "personal": {
+        "nombre_completo": "Edwin Ajahuanca Callisaya",
+        "direccion": "Calle Alto de la Alianza Nro. 1514",
+        "celular": "61457484",
+        "id": 4
+      }
+    },
+    {
+      "personal": {
+        "nombre_completo": "Edwin Ajahuanca Callisaya",
+        "direccion": "Calle Alto de la Alianza Nro. 1514",
+        "celular": "61457484",
+        "id": 4
+      },
+      "cantidadm3": 7,
+      "fecha_lectura": "2022-11-19",
+      "total_pagar": 70,
+      "id": 4
+    },
+    {
+      "personal": {
+        "id": 1,
+        "nombre_completo": "Juan Perez",
+        "direccion": "Calle Retamas S/N",
+        "celular": "4784212"
+      },
+      "cantidadm3": "85",
+      "fecha_lectura": "2022-12-14",
+      "total_pagar": 850,
+      "id": 5
+    },
+    {
+      "personal": {
+        "nombre_completo": "Laura Salinas",
+        "direccion": "Calle Saucedo Nro. 478",
+        "celular": "945877",
+        "id": 6
+      },
+      "cantidadm3": "9",
+      "fecha_lectura": "2022-11-09",
+      "total_pagar": 90,
+      "id": 6
+    }
+  ]
+}

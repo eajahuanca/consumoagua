@@ -11,14 +11,14 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<router-link to="/" class="nav-link active text-white" aria-current="page"> | Registro</router-link>
+							<router-link to="/" class="nav-link active text-white" aria-current="page"> | Personal</router-link>
 						</li>
 						<li class="nav-item">
-							<router-link to="/personal" class="nav-link text-white"> | Personal</router-link>
+							<router-link to="/registro" class="nav-link text-white"> | Registro Consumo</router-link>
 						</li>
 						
 						<li class="nav-item">	
-							<router-link to="/reporte" class="nav-link text-white"> | Reporte</router-link>
+							<router-link to="/reporte" class="nav-link text-white"> | Reportes</router-link>
 						</li>
 					</ul>
 					<form class="d-flex">

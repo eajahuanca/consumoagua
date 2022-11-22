@@ -1,5 +1,6 @@
 <template>
 	<CabeceraComponent/>
+	<div style="height: 4px;"></div>
 	<router-view />
 	<PieComponent/>
 </template>
